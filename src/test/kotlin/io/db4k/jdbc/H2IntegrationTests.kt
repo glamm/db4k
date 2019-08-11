@@ -7,10 +7,6 @@ import arrow.fx.fix
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-/**
- * Copyright (C) 2019 Medtronic PLC.  All Rights Reserved.
- */
-
 class H2IntegrationTests {
 
     data class TestRecord(val id: Int, val name: String)

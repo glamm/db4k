@@ -3,10 +3,6 @@ package io.db4k.jdbc
 import java.sql.ResultSet
 import java.util.*
 
-/**
- * Copyright (C) 2019 Medtronic PLC.  All Rights Reserved.
- */
-
 fun ResultSet.array(field: String) = getArray(field)
 fun ResultSet.asciiStream(field: String) = getAsciiStream(field)
 fun ResultSet.bigDecimal(field: String) = getBigDecimal(field)

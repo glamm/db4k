@@ -6,9 +6,6 @@ import arrow.typeclasses.MonadThrowSyntax
 import java.sql.Connection
 import java.sql.DriverManager
 
-/**
- * Copyright (C) 2019 Medtronic PLC.  All Rights Reserved.
- */
 interface JDBCConnectionManager<F>: Async<F> {
     val dbUrl: String
     val username: String
